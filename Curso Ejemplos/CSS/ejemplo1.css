@@ -1,0 +1,21 @@
+h2 {
+  text-align: center;
+}
+
+body {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  background-color: hsla(229, 100%, 50%, 0.8);
+}
+
+main {
+  background-color: hsla(341, 100%, 50%, 0.8);
+}
+
+footer {
+  background-color: hsla(46, 69%, 50%, 0.8);
+}
